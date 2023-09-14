@@ -7,7 +7,7 @@
 */
 
 //CODE HERE
-let lovesCode = true
+let lovesCode = false
 if (lovesCode === true){ 
   console.log('i Love to code');
 }else{
@@ -81,13 +81,13 @@ console.log('Amy and Brittani were born in the same year.')
 */
 
 //CODE HERE
-//if (temperature > 80 && rain) {
-  //console.log ('wear a tshirt and bring an umbralla')
-//}else if { else if (temperature > 60 && rain) {
-  //console.log ('youll need a jacket')
-  //{ else if (temperature < 60 && rain) {
-    //console.log ('umbralla and jacket ')
-  
+  if (temperature > 80 && rain) {
+  console.log ('wear a tshirt and bring an umbralla')
+}else if (temperature >= 60 && temperature <= 80 && rain)
+  console.log('wear a rain jacket')
+  {
+    console.log('wear a jacket and carry an umbrella!')
+  }
 
 
   //}
@@ -112,7 +112,7 @@ for (let i =0; i < 10; i++){
 */
 
 //CODE HERE
-for (let i =0; i < 10; i++){
+for (i =0; i < 10; i++){
   console.log('i')
 }
 
@@ -123,7 +123,7 @@ for (let i =0; i < 10; i++){
 */
 
 //CODE HERE
-for (let i = 10; i > 0; i--) {
+for (i = 10; i > 0; i--) {
   console.log(i)
 }
 
@@ -144,7 +144,7 @@ let passingScore = 7;
 
 while (score < passingScore) {
   console.log('your score is not high enough')
-
+  score - score +1
 }
 
 ////////// INTERMEDIATE PROBLEMS //////////
